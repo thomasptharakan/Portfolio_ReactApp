@@ -24,9 +24,7 @@ function Home() {
            <br></br>
            <br></br>
             Skills : Azure • React • JavaScript • EAI • DevOps 
-
            </Card.Title>
-           
         </Card.Body>
       </Card>
       <Card border='white' style={{display:"flex",alignItems:"center"}}>
