@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
  const TT_Icon = require(`../images/TT_Icon.png`);
 function NavTabs() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="grey" variant="light">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand>
           <Nav.Link as={Link} to="/">
@@ -19,7 +19,7 @@ function NavTabs() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
           </Nav>
-          <Nav>
+          <Nav variant='dark'>
             <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           </Nav>

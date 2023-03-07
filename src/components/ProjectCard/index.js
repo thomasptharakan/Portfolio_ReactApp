@@ -5,19 +5,17 @@ import { Card } from "react-bootstrap";
 
 function ProjectCard(props) {
   return (
-    <Card style={{ width: '25rem',margin:"15px" }} className="mb-4">
-      <Card.Img variant="top" alt={props.Title} src={props.image} height={"250px"}  />
-      <Card.Body>
+    <Card style={{ width: '25rem', margin: "15px" }} border="light" bg='light' text='dark' className="mb-2">
       <Card.Title>{props.title}</Card.Title>
-      <hr></hr>
-        <Card.Text>
-        <a href={props.deployLink}><strong>Deployed Project</strong></a>
-        <hr></hr>
-        </Card.Text>
-        <Card.Text>
-        <a href={props.gitHub}><strong>GitHub Repo</strong></a>
-        </Card.Text>
+      <Card.Body>
+        <Card.Img variant="top" alt={props.Title} src={props.image} height={"250px"} style={{ padding: "15px " }} />
       </Card.Body>
+      <Card.Footer >
+        <a href={props.deployLink}>Live URL</a>
+        <hr></hr>
+        <a href={props.gitHub}>GitHub</a>
+      </Card.Footer>
+
     </Card>
   );
 }
