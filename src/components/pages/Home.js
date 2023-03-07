@@ -24,19 +24,17 @@ function Home() {
            <br></br>
            <br></br>
             Skills : Azure • React • JavaScript • EAI • DevOps 
+
            </Card.Title>
         </Card.Body>
       </Card>
       <Card border='white' style={{display:"flex",alignItems:"center"}}>
-        <Card.Img variant="top" src="/ProfilePic_1.jpeg" style={{width:"400px"}}/>
+        <Card.Img variant="top" src="/ProfilePic_1.jpeg" style={{objectFit:'contain',height:"500px"}}/>
       </Card>
       </CardGroup>
     </div>
-    <br></br>
-    <br></br>
-    <br></br>
     <div style={{display:'flex', justifyContent:'center'}}>
-    <Card border='white'>
+    <Card >
         <Card.Body style={{textAlign:'center'}}>
           <Card.Title >
             <ConfigIcon><a href='https:\\www.github.com\thomasptharakan'><FaGithub /></a>
