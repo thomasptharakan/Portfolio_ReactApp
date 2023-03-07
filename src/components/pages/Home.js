@@ -29,7 +29,7 @@ function Home() {
         </Card.Body>
       </Card>
       <Card border='white' style={{display:"flex",alignItems:"center"}}>
-        <Card.Img variant="top" src="/ProfilePic_1.jpeg" style={{objectFit:'contain',height:"500px"}}/>
+        <Card.Img variant="top" src="/images/ProfilePic_1.jpeg" style={{objectFit:'contain',height:"500px"}}/>
       </Card>
       </CardGroup>
     </div>
@@ -42,7 +42,7 @@ function Home() {
             &nbsp;&nbsp;&nbsp;
             <ConfigIcon><a href="https://www.linkedin.com/in/thomastharakan"><FaLinkedin /></a></ConfigIcon>
             &nbsp;&nbsp;&nbsp;
-            <ConfigIcon><a href="./ThomasTharakanCV_2022.pdf"><FaFilePdf /></a></ConfigIcon>
+            <ConfigIcon><a href="./documents/ThomasTharakanCV_2022.pdf"><FaFilePdf /></a></ConfigIcon>
             &nbsp;&nbsp;&nbsp;
             <ConfigIcon><a href="mailto:thomasptharakan@gmail.com"><AiOutlineMail /></a></ConfigIcon>
             

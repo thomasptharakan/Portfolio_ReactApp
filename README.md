@@ -45,7 +45,7 @@ Link to code : https://github.com/thomasptharakan/TBC
 ## Mock_Up
 The following mockup provides an overview of the output html generated:
 
-![Sample html image of Team Profile generated](images/14-object-oriented-programming-challenge-demo.png)
+![Sample html image of Profile Site generated](images/14-object-oriented-programming-challenge-demo.png)
 
 
 

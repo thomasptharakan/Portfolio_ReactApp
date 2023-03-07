@@ -11,7 +11,7 @@ function NavTabs() {
       <Container>
         <Navbar.Brand>
           <Nav.Link as={Link} to="/">
-            <img src="/TT_Icon.png" width="40" height="30" className="d-inline-block align-top" alt="TT Icon" />
+            <img src="/images/TT_Icon.png" width="40" height="30" className="d-inline-block align-top" alt="TT Icon" />
             &nbsp;Thomas Tharakan
           </Nav.Link>
         </Navbar.Brand>
