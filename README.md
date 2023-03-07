@@ -5,7 +5,7 @@ The Portfolio app provides an overview of the developers profile, LinkedIn Links
 
 
 
-Link to code : https://github.com/thomasptharakan/TBC
+Link to code : https://thomasptharakan.github.io/Portfolio_ReactApp/
 
 
 
@@ -45,25 +45,37 @@ Link to code : https://github.com/thomasptharakan/TBC
 ## Mock_Up
 The following mockup provides an overview of the output html generated:
 
-![Sample html image of Profile Site generated](images/14-object-oriented-programming-challenge-demo.png)
+![Sample html image of Profile Site generated](/src/images/HomeScreen.png)
 
 
 
 ## File_Structure
 ```
-├── images
-│   └── 14-object-oriented-programming-challenge-demo.png
-├── lib
-│   └── Employee.js
-│   └── Engineer.js
-│   └── Intern.js
-│   └── Manager.js
+├── public
+│   └── documents
+│       └── CV.pdf
+├── index.html
+├── manifest.json
 ├── src
-│   └── page-template.js
-├── output
-│   └── team.html
+│   └──Components
+│   |    └── pages.js
+│   |    |   └── Contact.js
+│   |    |   └── Home.js
+│   |    |   └── Projects.js
+│   |    └── ProjectCard
+│   |    |   └── index.js
+│   |    └── ConfigIcon.js
+│   |    └── NavTabs.js
+│   └── images
+│   |   └── HomeScreen.png
+│   |   └── ProfilePic_1.jpeg
+│   |   └── T_Icon.png
+│   |   └── TT_Icon.png
+│   |   └── TT_Logo.png
+│   └── App.js
+│   └── index.js
+│   └── projects.json
 ├── .gitignore
-├── index.js
 ├── LICENSE
 ├── package-lock.json
 ├── package.json
