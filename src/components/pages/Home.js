@@ -1,19 +1,59 @@
-import React from "react";
+// import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import { FaLinkedin  } from "react-icons/fa";
+import {FaGithub} from "react-icons/fa";
+import {FaFilePdf} from "react-icons/fa";
+import {AiOutlineMail} from "react-icons/ai";
+
+
+import ConfigIcon from '../ConfigIcon';
+import CardGroup from 'react-bootstrap/CardGroup';
+
 
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+    <div style={{display:'flex', justifyContent:'center'}}>
+    <CardGroup>
+      <Card border='white' >
+        <Card.Body style={{display:"flex",alignItems:"center",textAlign:'right'}}>
+          <Card.Title>
+           Solution Architect responsible for designing and implementing complex technology solutions that meet the needs of clients. 
+           <br></br>
+           Web Developer in Training.
+           <br></br>
+           <br></br>
+            Skills : Azure • React • JavaScript • EAI • DevOps 
+
+           </Card.Title>
+           
+        </Card.Body>
+      </Card>
+      <Card border='white' style={{display:"flex",alignItems:"center"}}>
+        <Card.Img variant="top" src="/ProfilePic_1.jpeg" style={{width:"400px"}}/>
+      </Card>
+      </CardGroup>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div style={{display:'flex', justifyContent:'center'}}>
+    <Card border='white'>
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title >
+            <ConfigIcon><a href='https:\\www.github.com\thomasptharakan'><FaGithub /></a>
+            </ConfigIcon>
+            &nbsp;&nbsp;&nbsp;
+            <ConfigIcon><a href="https://www.linkedin.com/in/thomastharakan"><FaLinkedin /></a></ConfigIcon>
+            &nbsp;&nbsp;&nbsp;
+            <ConfigIcon><a href="./ThomasTharakanCV_2022.pdf"><FaFilePdf /></a></ConfigIcon>
+            &nbsp;&nbsp;&nbsp;
+            <ConfigIcon><a href="mailto:thomasptharakan@gmail.com"><AiOutlineMail /></a></ConfigIcon>
+            
+          </Card.Title>
+        </Card.Body>
+      </Card>
+    </div>
     </div>
   );
 }
