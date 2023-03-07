@@ -95,6 +95,7 @@ Licensed under the [GPL](LICENSE.txt) license
 ## Credits
 1. https://react-bootstrap.github.io/getting-started/introduction/
 2. https://react-icons.github.io/react-icons
+3. https://github.com/gitname/react-gh-pages
 
 
 
